@@ -101,7 +101,7 @@ instance/typist.db               # SQLite (создаётся при перво�
 python -m venv .venv
 .venv\Scripts\activate           # Windows
 source .venv/bin/activate        # Linux/Mac
-pip install flask flask-sqlalchemy flask-login pillow
+pip install -e .
 python app.py
 ```
 
